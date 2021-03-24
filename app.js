@@ -1,9 +1,9 @@
-let numbers = document.querySelectorAll('.number');
-let operators = document.querySelectorAll('.operator');
-let decBtn = document.getElementById('decimal');
-let clearNumberBtn = document.getElementById('c');
-let clearAllBtn = document.getElementById('ce');
-let display = document.getElementById('display');
+const numbers = document.querySelectorAll('.number');
+const operators = document.querySelectorAll('.operator');
+const decBtn = document.getElementById('decimal');
+const clearNumberBtn = document.getElementById('c');
+const clearAllBtn = document.getElementById('ce');
+const display = document.getElementById('display');
 //Переменные памяти
 let memoryCurrentNumber = '0';
 let memoryNewNumber = false;
